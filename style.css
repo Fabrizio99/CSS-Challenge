@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+:root{
+    --main-font : 'Poppins';
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    
+}
+.icons-container{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #230E64;
+    border-radius: 30px;
+}
+.icon-title{
+    color: white;
+    font-size: 20px;
+}
+.icon-title span{
+    font-weight: bold;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+i{
+    cursor: pointer;
+}
+.icon i{
+    color: white;
+    font-size: 20px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.welcome{
+    color: white;
+    background-color: #C69532;
+    height: 130px;
+    border-radius: 20px;
+}
+.welcome .greeting{
+    font-size: 35px;
+}
+
+.welcome .message{
+    font-size: 20px;
+}
+.main > div{
+    margin:30px;
+}
+.date{
+    color: #230E64;
+    font-weight: 900;
+}
+.arrows{
+    background-color: #F08080;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+}
+.arrows i{
+    margin: 5px;
+}
+.date span:first-child{
+    margin-right: 20px;
+}
+.btn-calendar{
+    background-color: #E2E8F5;
+    color: #230E64;
+}
+.days{
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+.day{
+    text-align: center;
+    border-radius: 30px;
+}
+.day-container{
+    margin: 20px 0;
+    color: #230E64;
+}
+
+.day:hover{
+    background: #F08080;
+    box-shadow: 0 3px 5px #ddd;
+}
+.day-container .color{
+    margin: auto;
+    height: 7px;
+    width: 7px;
+    background-color: red;
+    border-radius: 50%;
+}
+.report-title{
+    color: #230E64;
+}
+.report-links .btn{
+    color: #230E64;
+}
+.report-container{
+    text-align: center;
+    color: #230E64;
+}
+.report{
+    margin: 0px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    align-items: center;
+}
+.report:hover{
+    box-shadow: 0 0px 5px #ddd;
+    border-radius: 20px;
+}
+.report .storage{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 4px;
+    background-color: #E9967A;
+    border-radius: 10px;
+}
+.report > i{
+    padding: 12px;
+    background-color: #E9967A;
+    border-radius:10px;
+    color: white;
+}
+.report .title{
+    font-size: 12px;
+}
+.monitoring-header{
+    color: #230E64;
+    font-weight: bold;
+}
+.monitoring{
+    height: 90px;
+    box-shadow: 0 0 5px #ddd;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.monitoring .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.monitoring .data{
+    color: #230E64;
+    font-weight: bold;
+}
+.monitoring .month{
+    font-size: 10px;
+}
+.monitoring .graphic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.monitoring .circle{
+    height: 60px;
+    width: 60px;
+    background-color: #ccc;
+    border-radius: 50%;
+    position: relative;
+}
+.monitoring .bar{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 9%;
+    top: 9%;
+}
+.monitoring > div:first-child{
+    border-right: 1px solid #eee;
+}
+.monitoring .number{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+.profile-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile-nav i{
+    color: #230E64;
+    font-size: 25px;
+}
+.profile-nav img{
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+.secondary-container{
+    background-color: #E2E8F5;
+    border-top-left-radius: 30px;
+}
+.secondary-container .title{
+    color: #230E64;
+    font-weight: bold;
+    font-size: 20px;
+}
+.function{
+    background-color: white;
+    
+    border-radius: 20px;
+}
+.function-setting{
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F08080;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.function-setting i{
+    color: white;
+}
+.function-icon {
+    margin-top: -5px;
+    background-color: #FBB4B4;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.function-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+.graphic-container{
+    background-color: white;
+    border-radius: 20px;
+}
+.graphic-mode{
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    padding: 2px;
+    height: min-content;
+}
+.graphic-able{
+    background-color: #C69532;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+.graphic-disable{
+    padding: 5px;
+    color: #ccc;
+}
+.graphic-info .data{
+    font-size: 10px;
+    color: #bbb;
+}
+.graphic-info .percentage{
+    color: #230E64;
+    font-size: 20px;
+    font-weight: bold;
+}
